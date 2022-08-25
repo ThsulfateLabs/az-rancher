@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: source-vars
 data:
-  MY_NAMESPACE: rancher-demo
-  URL_HOST: rancher-demo.home.monach.us
+  MY_NAMESPACE: az-rancher
+  URL_HOST: az-rancher.rnd.zeta.asia

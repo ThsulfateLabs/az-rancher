@@ -11,8 +11,8 @@ configMapGenerator:
   - name: rancher-demo-config
     env: env.txt
 images:
-  - name: thsulfatezeta/az-rancher-demo:latest
-    newName: thsulfatezeta/az-rancher-demo:latest
+  - name: thsulfatezeta/az-rancher-demo
+    newName: thsulfatezeta/az-rancher-demo
     newTag: latest
 commonLabels:
   app.kubernetes.io/name: rancher-demo
